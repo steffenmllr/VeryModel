@@ -272,7 +272,7 @@ module.exports = {
 
     'isSet': function (test) {
         var Thing = new VeryModel({
-            a: { 
+            a: {
                 derive: function (a) {
                     if (!this.isSet('a')) {
                         return 'ham';
